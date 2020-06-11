@@ -1,0 +1,15 @@
+composer create-project --prefer-dist laravel/laravel nombreapp "5.8.*"
+composer create-project --prefer-dist laravel/laravel nombreapp "6.*"
+
+
+> cd Desktop
+> git clone https://github.com/ofac/project.git
+> cd project/
+> composer update
+> touch .env
+> cat .env.example > .env
+> nano .env
+> chmod -R 777 storage
+> php artisan key:generate
+> php artisan --version
+> php artisan serve

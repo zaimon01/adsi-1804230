@@ -1,0 +1,92 @@
+.bg-custom {
+	background-color: #00796b;
+}
+.btn-custom{
+	background-color: #00796b;
+	color: #fff;
+	transition: all 0.5s;
+}
+.btn-custom:hover{
+	background-color: #075e55;
+	color: #fff;
+	transform: scale(1.05);
+}
+.btn-custom-danger{
+	background-color: #c20031;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+.btn-custom-danger:hover{
+	background-color: #900b29;
+	color: #fff;
+	transform: scale(1.05);
+}
+
+.page-item.active .page-link{
+	border: 1px solid #00796b;
+	background-color: #00796b;
+	color: #fff;
+}
+
+.page-item .page-link{
+	color: #014f49;
+}
+
+.pagination{
+	align-items: center;
+	justify-content: center;
+}
+
+.dropdown-item:active,
+.dropdown-item:focus {
+	background-color: #00796b;
+	color: #fff; 
+}
+
+.card-title {
+	background-color: #00796b;
+	color: #fff;
+	padding: 5px;
+}
+
+.form-search {
+	height: calc(1.6em + 0.75rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+}
+
+.slider {
+	background-color: #fff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	height: 400px;
+	transition: all 0.5s ease-in;
+}
+
+.slider p {
+	background-color: rgb(0,0,0,.8);
+	color: #fff;
+	padding: 10px;
+	position: absolute;
+	bottom: -180px;
+	height: 150px;
+	transition: all 0.5s ease-out;
+}
+
+.slider:hover {
+	background-size: 80%;
+}
+
+.slider:hover p {
+	bottom: -18px;
+}
