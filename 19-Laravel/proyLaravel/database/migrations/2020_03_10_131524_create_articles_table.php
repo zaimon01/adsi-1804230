@@ -22,7 +22,7 @@ class CreateArticlesTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');
-            $table->boolean('slider')->default(0);
+            $table->bool('slider')->default(0);
             $table->integer('price')->default(50);
 
             $table->timestamps();
